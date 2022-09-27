@@ -10,15 +10,20 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--main-color);
   font-size: 14px;
+  margin: 0;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .container {
-  width: 1230px;
+  box-sizing: border-box;
+  width: 1200px;
   margin: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
-  padding-top: 94px;
 }
 .container-work {
   width: 1230px;
@@ -115,6 +120,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding: 32px 0;
 
   color: var(--main-color);
 }
@@ -133,6 +139,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding: 32px 0;
 
   color: var(--secondary-color);
 }
@@ -143,6 +150,7 @@ ul {
 }
 .hero {
   background-color: #2f303a;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -170,6 +178,7 @@ ul {
   letter-spacing: 0.06em;
   cursor: pointer;
   margin: auto;
+  border: 0;
 
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -188,6 +197,7 @@ ul {
   letter-spacing: 0.03em;
   font-family: inherit;
   cursor: pointer;
+  border: 0;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -286,12 +296,15 @@ ul {
   margin-bottom: 50px;
 }
 
+.team-div {
+  padding: 30px;
+}
+
 .team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -301,25 +314,20 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-top: 0;
-  margin-bottom: 30px;
   text-align: center;
 
   color: var(--secondary-color);
 }
 
 .flex-container {
-  width: 1177px;
   display: flex;
   flex-wrap: wrap;
-  margin-left: auto;
   margin-right: auto;
 }
 
 .flex-element {
   width: 370px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
 
@@ -336,25 +344,27 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
-  margin-top: 20px;
   margin-bottom: 4px;
+}
+
+.list-div {
+  padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-top: 0;
 }
 
 .list-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  margin-left: 24px;
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin: 0;
 
   color: var(--secondary-color);
 }
 
 .container-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
   width: 1230px;
@@ -363,6 +373,8 @@ ul {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-adress-f {
