@@ -282,9 +282,6 @@ ul {
   margin-right: 30px;
 }
 
-.team-flex li {
-}
-
 .work-title,
 .team-title {
   font-weight: 700;
@@ -301,6 +298,7 @@ ul {
 }
 
 .team-member {
+  margin-top: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -310,6 +308,7 @@ ul {
 }
 
 .team-profession {
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -340,6 +339,7 @@ ul {
 }
 
 .list-title {
+  margin-top: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
